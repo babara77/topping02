@@ -1,0 +1,52 @@
+.popup__container {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #222;
+    display: flex;
+    background: url("../img/sky.jpg") no-repeat;
+    /*max-width: 801px;
+    height: 505px;*/
+    margin: 0 auto;
+}
+/* main */
+.main {
+    display: flex;
+    align-items: center;
+    padding: 195px;
+}
+/* Table */
+table {
+    border-collapse: collapse;
+    width: 190px;
+    height: 200px;
+}
+td {
+    padding: 10px 20px 0px 0;
+}
+.title {
+    font-size: 24px;
+    font-weight: 600;
+}
+.SubTitle {
+    line-height: 22px;
+}
+/*BUTTON*/
+.btn {
+    height: 40px;
+    width: 200px;
+    background: #4588ff;
+    color: #ffffff;
+    font-weight: 500;
+    border: 1px solid #4588ff;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    box-sizing: border-box;
+}
+.btn:hover{
+    border: 1px solid rgba(3, 6, 44, 0.842);
+    background: rgba(3, 6, 44, 0.842);
+}
